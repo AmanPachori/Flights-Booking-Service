@@ -1,6 +1,5 @@
 const axios = require("axios");
 const { StatusCodes } = require("http-status-codes");
-
 const { BookingRepository } = require("../repositories");
 const { ServerConfig } = require("../config");
 const db = require("../models");
